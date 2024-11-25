@@ -6,7 +6,7 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:brown ;
+    background-color: white;
     min-height: 100vh;
 }
 header{
@@ -32,9 +32,17 @@ main p{
    padding-bottom: 10px;
    padding-left: 5px;
 }
+main p#img{
+    background-color: rgba(0, 0, 0, 0.375);
+}
+#img{
+    background-image: url(imaguens/imaguens\ de\ funfo.jpg);
+    background-position: right center;
+    background-size: cover;
+}
 footer{
     padding: 10px;
     text-align: center;
-    background-color: gray;
-    color: black;
+    background-color: black;
+    color: white;
 }
